@@ -75,7 +75,6 @@
 <script>
 import Experiences from './page/Experiences.vue';
 import Education from './page/Education.vue';
-// import image from '@/assets/image/IMG_2986.jpg';
 export default {
     components: {
         Experiences,
@@ -84,10 +83,5 @@ export default {
     data() {
         return { move: false }
     },
-    // computed: {
-    //     getImage() {
-    //         return image;
-    //     }
-    // }
 }
 </script>
