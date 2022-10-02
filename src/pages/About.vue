@@ -17,7 +17,7 @@
         <div class="md:flex md:flex-row flex-col justify-center  md:py-24 gap-32">
             <div class="bg-conten md:mb-0 mb-4 md:max-w-2xl w-full rounded">
                 <div class="p-4 md:flex gap-4">
-                    <img src="../assets/image/IMG_2986.JPG" alt="" class="rounded  mb-4 md:mb-0 md:w-48">
+                    <img src="@/assets/image/IMG_2986.jpg" alt="" class="rounded  mb-4 md:mb-0 md:w-48">
                     <ul class="space-y-4 leading-5 tracking-wide font-light text-md">
                         <li>Name : Jamil Hamdi Harahap</li>
                         <li>Age : 20 years</li>
