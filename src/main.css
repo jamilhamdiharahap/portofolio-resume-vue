@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,500;0,600;0,700;0,800;1,600;1,700;1,800&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.hover-contact {
+  @apply hover:border hover:bg-conten hover:transition hover:delay-300 hover:duration-300 hover:ease-in-out;
+}
+
+.dark {
+  background-color: #121212;
+  color: white;
+}
+
+.light {
+  background-color: #f9f9fb;
+  color: #4e4e4e;
+}
+
+.cfooter {
+  background-color: #343434;
+}
+.bfooter {
+  border-top: 1px solid #cdcdcd;
+}
+
+.container {
+  margin-left: 24px;
+  margin-right: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+  margin: auto;
+}
