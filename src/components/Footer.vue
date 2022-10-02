@@ -1,6 +1,7 @@
 <template>
     <footer :class="[theme ? 'cfooter' : 'shadow-2xl bg-card']" class="md:pt-8">
-        <div class="md:flex md:justify-between md:items-center md:mx-8 mx-0 md:px-8 px-0 md:py-0 py-4 md:mb-16 mb-4">
+        <div
+            class="md:flex md:justify-between sm:gap-2 md:items-center md:mx-8 mx-0 md:px-8 px-0 md:py-0 py-4 md:mb-16 mb-4">
             <div class="flex items-center gap-4  md:max-w-md w-full mb-2 px-4 md:px-0">
                 <a href="#" class="md:p-4  p-1 border border-txt  rounded-full hover:bg-conten">
                     <IconCall />
@@ -15,7 +16,7 @@
                 <h1 :class="!theme ? 'text-txt' : 'text-white'" class="md:text-2xl font-light">
                     jamilhamdihrp@gmail.com</h1>
             </div>
-            <div class="md:max-w-md w-full flex items-center  gap-4 md:px-0 px-4 justify-end">
+            <div class="md:max-w-md w-full flex sm:flex-wrap items-center  gap-4 md:px-0 px-4 justify-end">
                 <div v-for="icon in iconFooter" :key="icon.component"
                     class="p-2 border border-txt rounded-full hover:bg-conten">
                     <a :href="icon.url" target="_blank">
