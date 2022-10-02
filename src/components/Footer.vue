@@ -26,8 +26,9 @@
         </div>
         <div :class="[theme ? 'bfooter' : 'divide-y divide-slate-700']"
             class="border-t-2 flex justify-between items-center">
-            <div class="md:mx-8 px-8">
-                <h1 :class="!theme ? 'text-txt' : 'text-white'" class="py-8 md:text-lg">© 2022 Jamil Hamdi Harahap</h1>
+            <div class="md:mx-8 md:px-8 px-4">
+                <h1 :class="!theme ? 'text-txt' : 'text-white'" class="py-8 md:text-lg text-sm">© 2022 Jamil Hamdi
+                    Harahap</h1>
             </div>
             <div class="md:mx-8 px-8">
                 <IconVue />

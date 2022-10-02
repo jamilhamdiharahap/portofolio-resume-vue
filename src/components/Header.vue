@@ -14,12 +14,14 @@
                 </span>
             </button>
 
-            <ul :class="[open ? 'left-0  border-t-2 bg-conten md:border-none border-white' : 'left-full']"
-                class="md:flex md:items-center px-8 md:px-0 md:pb-0 pb-10 md:static absolute md:w-auto w-full top-19 duration-700 ease-in">
-                <li v-for="route in routes" v-bind:key="route.path" class="md:mx-4 md:my-0 my-6">
+            <ul :class="[open ? 'left-0  border-t-2 bg-conten md:border-none border-white' : 'flex-none']"
+                class="md:flex md:items-center px-8 md:px-0 md:pb-0 pb-10 md:static absolute md:w-auto w-full top-19 duration-500 ease-in">
+                <li v-for="route in routes" v-bind:key="route.path" :class="[!open && 'md:flex flex-none hidden']"
+                    class=" md:mx-4
+                    md:my-0 my-6">
                     <router-link v-bind:to="route.path">{{ route.name }}</router-link>
                 </li>
-                <button @click="changeTheme">
+                <button @click="changeTheme" :class="[!open && 'md:flex flex-none hidden']">
                     <IconDark v-if="!theme" />
                     <IconLight v-else />
                 </button>
