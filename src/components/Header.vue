@@ -14,7 +14,7 @@
                 </span>
             </button>
 
-            <ul :class="[open ? 'left-0  border-t-2 bg-conten md:border-none border-white' : 'flex-none pb-0']"
+            <ul :class="[open ? 'left-0  border-t-2 bg-conten md:border-none border-white' : 'flex-none hidden']"
                 class="md:flex md:items-center px-8 md:px-0 md:pb-0 pb-10 md:static absolute max-w-full md:w-auto w-full top-19 duration-500 ease-in">
                 <li v-for="route in routes" v-bind:key="route.path" :class="[!open && 'md:flex flex-none hidden']"
                     class=" md:mx-4
