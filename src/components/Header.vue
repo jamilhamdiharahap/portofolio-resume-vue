@@ -13,9 +13,10 @@
                     <IconClose v-else />
                 </span>
             </button>
-            <ul :style="theme ? 'background:#252734' : 'background:white;border-top:2px solid #252734!important'"
-                :class="[open ? 'left-0 border-t-2 md:border-none shadow-lg border-white md:flex md:items-center px-8 md:px-0 md:pb-0 pb-10 md:static absolute max-w-full md:w-auto w-full top-19 duration-500 ease-in ' : 'flex-none hidden']">
 
+            <ul :style="theme ? 'bacground:#252734' : 'background:white'"
+                :class="[open ? 'left-0 bg-conten md:border-none' : 'flex-none hidden']" class="md:flex md:items-center px-8 md:px-0 md:pb-0 pb-10 md:static absolute max-w-full md:w-auto
+                    w-full top-19 duration-500 ease-in">
                 <li v-for="route in routes" v-bind:key="route.path" :class="[!open && 'md:flex flex-none hidden']"
                     class=" md:mx-4
                     md:my-0 my-6">
