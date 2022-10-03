@@ -75,6 +75,9 @@
                 </div>
                 <textarea name="" class="border bg-conten w-full md:p-4 p-1" placeholder="Comment" id="" cols="30"
                     rows="10"></textarea>
+                <div class="border bg-conten text-center">
+                    <button class="p-2 px-8 m-auto">Send mail</button>
+                </div>
             </div>
         </div>
     </section>
